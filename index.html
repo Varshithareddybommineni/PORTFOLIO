@@ -442,13 +442,17 @@
 
         /* Contact Section */
         .contact {
+            justify-items: center;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
             padding: 6rem 2rem;
             background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
         }
 
         .contact-container {
             justify-items: center;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -729,7 +733,7 @@
                 
             </div>
             <div class="hero-visual">
-                <img src="/api/placeholder/350/350" alt="Bommineni Varshitha Reddy" class="hero-image">
+                <img src="puppy.jpg" alt="Bommineni Varshitha Reddy" class="hero-image">
                 <div class="stats-card card-2">
                     <span class="stats-number">9.8+</span>
                     <span class="stats-label">CGPA</span>
@@ -865,7 +869,7 @@
     <section id="contact" class="contact">
         <div class="section-container">
             <h2 class="section-title">Let's work together on your next project.</h2>
-            <div class="contact-container">
+            <div class="contact-container ">
                 <div class="contact-info">
                     <div class="contact-item">
                         <div class="contact-icon">
@@ -892,7 +896,7 @@
                         </a>
                     </div>
                 </div>
-                <form class="contact-form">
+                <!-- <form class="contact-form">
                     <div class="form-group">
                         <input type="text" class="form-input" placeholder="Your Name" required>
                     </div>
@@ -903,7 +907,7 @@
                         <textarea class="form-input form-textarea" placeholder="Your Message" required></textarea>
                     </div>
                     <button type="submit" class="submit-button">Send Message</button>
-                </form>
+                </form> -->
             </div>
         </div>
     </section>
